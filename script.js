@@ -33,6 +33,8 @@ function addPoints(value) {
 }
 
 function startNewGame() {
-    homeEl.textContent = 0
-    guestEl.textContent = 0
+    homeScore = 0
+    guestScore = 0
+    homeEl.textContent = homeScore
+    guestEl.textContent = guestScore
 }
